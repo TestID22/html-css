@@ -1,0 +1,35 @@
+.square{
+	height: 100px;
+	width: 100px;
+	background-color: #D361CB;
+	margin:30px auto;
+	/*анимация это вообще КАЕФ*/
+	animation-name:spin;
+	animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+	0%{
+	transform: rotate(0deg);
+	background-color: #5B95D3;
+	position: relative;
+	top:0px;
+	}
+	50%{
+	transform: rotate(180deg) scale(1.5);
+	background-color: #50D346;
+	position: relative;
+	top:1000px;
+
+	}
+	100%{
+	transform: rotate(360deg);
+	background-color: #D361CB;
+	position: relative;
+	top:0px;
+	}
+
+}
+

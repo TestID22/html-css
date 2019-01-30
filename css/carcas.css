@@ -1,0 +1,28 @@
+#wrapper{
+	margin: 0 auto;
+	padding: 10px;
+	width: 1000px;
+	border:2px solid #000;
+	box-sizing: border-box;
+}
+
+#header{
+	height: 90px;
+	background-color: #FFB805;
+	margin-bottom: 12px;
+}
+#sidebar{
+	background-color: #FF0026;
+	margin-bottom: 12px;
+	width:150px;
+	float:left;
+}
+
+#sidebarR{
+	background-color: #000;
+	margin-bottom: 12px;
+	width: 150px;
+	float:right;
+}
+
+

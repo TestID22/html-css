@@ -1,0 +1,16 @@
+#body{
+	background-color: #BEC2E7;
+
+}
+#wrapper{
+	width: 900px;
+	height: 200px;
+	outline: 2px solid #CCE7CC;
+
+}
+#header{
+	width: 800px;
+	height: 500px;
+	outline: 2px solid #E7ACB0;
+
+}

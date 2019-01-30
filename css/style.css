@@ -1,0 +1,28 @@
+body{
+	font: 15px Verdann,sans-serif;
+	color:#333333;
+}
+#wrapper {
+	width:500px;	
+}
+
+.questions{
+	font-weight:bold;
+}
+
+fieldset{
+	padding:10px;
+	margin:10px;
+	border: 1px solid #cccccc;
+	background-color:#fcfcfc;
+}
+
+.input{
+	border: 1px solid #cccccc;
+	height:15px;
+	background-image: url(input.jpg);
+}
+
+.input:focus{
+	border: 2px solid #000;
+}
