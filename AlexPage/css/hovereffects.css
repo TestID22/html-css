@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Amatic SC', cursive;
+}
+
+header{
+	text-align: center;
+
+
+}
+h3{
+	font-size: 40px;
+	position: relative;
+	margin: 20px auto;
+	color: #6F7ECA;
+}
+.img{
+
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items:center;
+	overflow: hidden;
+}
+
+#img1{
+	background-image: url(../img/alex1.jpg);
+	height: 600px;
+	width: 250px;
+	margin: 40px;
+	background-position: center;
+	background-size: cover;
+	
+}
+
+#img2{
+	background-image: url(../img/5.jpg);
+	height: 600px;
+	width: 250px;
+	margin: 40px;
+	background-position: center;
+	background-size: cover;
+	z-index: 1;
+}
+#img3{
+background-image: url(../img/alex2.jpg);
+	height: 600px;
+	width: 250px;
+	margin: 40px;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	z-index: 0;
+}
+#img1:hover{
+	transform: scale(1.1);
+	transition: all 1s ease;
+	-webkit-filter: blur(6px);
+}
+#img2:hover{
+	-webkit-filter: grayscale(100%);
+	transition: all 1s ease;
+	
+}
+#img3:hover{
+	transition: all 1s ease;
+	transform: rotate(35deg);
+
+}
+#back{
+	text-decoration: none;
+	font-size: 32px;
+	margin-bottom: 30px;
+	padding: 10px;
+}

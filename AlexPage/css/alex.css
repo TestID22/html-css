@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: 'Amatic SC', cursive;
+	font-size:1.8em;
+
+	}
+/*       Header         */
+.header{
+	background-image: url(../img/back2.jpg);
+	background-attachment:fixed;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	color: #fff;
+	text-align: center;
+	/*флекс боксы ААААЕЕЕЕ это круто*/
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}	
+#galery{
+	text-decoration: none;
+	font-size: 40px;
+	color:#fff;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+#galery:hover{
+	color:#6F7ECA;
+
+}
+
+#headback{
+	font-size: 70px;
+	margin-bottom: 40px;
+	font-weight: bold;
+	transition: all.6s ease;
+	--ms--transition:all.1s ease;
+	
+}
+
+#headback:hover{
+	transition-property:font-size;
+	font-size: 150px;
+	color:#6F7ECA;
+	transition: -ms-text-align-last: .10em;
+	text-shadow: 2px 2px #000;
+	border-bottom: 2px solid #6F7ECA;
+	padding:1px;
+	
+}
+#title{
+	font-size:32px;
+	line-height: 47px;
+	border:2px solid #6F7ECA;
+	border-radius: 15px;
+	padding: 5px;
+}
+	
+::selection{
+	background: #A9B5C3;
+	color:#3FBECA;
+}
+#a{
+	text-decoration: none;
+	color:#fff;
+	font-size: 38px;
+	position: absolute;
+	bottom:50px;
+	margin-left:-30px;
+	text-shadow: 2px 2px #000;
+	font-weight: bold;
+}
+#a:hover{
+	transition:all 2s ease;
+	color:#6F7ECA;
+	border-bottom: 2px solid #6F7ECA;
+
+}
+/*       portfolio       */
+footer{
+	height: 100vh;
+}
+
+#zag{
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	font-size: 38px;
+	
+}
+#portfolio{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	overflow: hidden;
+	margin: 20px;
+
+}
+
+}
+#rabota1{
+	
+	overflow: hidden;
+
+}
+#rabota3{
+}
+
+#rabota1:hover{
+
+	transition-timing-function:ease;
+	transition: all 1s;
+	opacity: 0.8;
+	transform: scale(1.1);
+}
+#rabota2:hover{
+	transition: all 1s ease;
+	transform: scale(1.1);
+	opacity: 0.8;
+	
+}
+#rabota3:hover{
+	transition: all 1s ease;
+	transform: scale(1.1);
+	opacity: 0.8;
+	
+}
+
+/* низина*/
+footer {
+	height:50vh;
+	background-image: url(../img/back3.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+#all{
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
