@@ -1,4 +1,0 @@
-a =3 
-print(a)
-if a>1:
-    print("MazaHaka")
