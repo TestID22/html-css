@@ -1,8 +1,0 @@
-myfile = open ('T-virus.txt', 'w')
-myfile.write('You are INFECTED!\n')
-myfile.write('This is a T-virus\n')
-myfile=open('T-virus.txt')
-myfile.read()
-myfile = open ('e:\\projects\\code\\Python\\T-virus.txt')
-text = myfile.read()
-print(text)

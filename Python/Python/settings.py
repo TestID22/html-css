@@ -1,1 +1,0 @@
-SIZE = (width, height) = (900, 900)
